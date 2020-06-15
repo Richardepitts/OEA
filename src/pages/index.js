@@ -28,10 +28,8 @@ export default function Index() {
         irisBoolean: true
     }
     const [state, setState] = useState(theState);
-
     let isNextTemplate = useSelector(state => state.isNextTemplate)
     let isPreviousTemplate = useSelector(state => state.isPreviousTemplate)
-
     useEffect(() => {
         if (isNextTemplate) {
             let consumer = document.querySelector(".consumer")
