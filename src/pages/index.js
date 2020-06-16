@@ -10,7 +10,6 @@ import Iris from '../components/Iris';
 import BalloonWrench from '../components/BalloonWrench';
 import { useSelector } from 'react-redux';
 
-
 export default function Index() {
     const balloonWrench = "/balloon-wrench.svg";
     const balloonWrenchFilled = "/balloon-wrench-filled.svg"
